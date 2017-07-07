@@ -141,4 +141,51 @@ input, select {
       border-radius: 50%;
       font-size: 156%; }
 
+.feature {
+  background: #11749e;
+  padding: 100px 0 130px 0; }
+  .feature .feature__heading {
+    text-align: center;
+    position: relative;
+    margin-bottom: 70px; }
+    .feature .feature__heading span {
+      font-size: 1560%;
+      color: #5993b2; }
+    .feature .feature__heading p {
+      color: #fff;
+      font-size: 238%;
+      text-transform: uppercase;
+      position: absolute;
+      top: 45%;
+      left: 28%; }
+  .feature .feature__col {
+    width: 23%;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%; }
+    .feature .feature__col:nth-child(1) {
+      margin-left: 0px; }
+    .feature .feature__col:nth-child(4) {
+      margin-right: 0px; }
+    .feature .feature__col .featureIcon_container {
+      text-align: center; }
+    .feature .feature__col i {
+      font-size: 200%;
+      color: #fff;
+      padding: 50px;
+      border-radius: 50%;
+      background: #2e85aa;
+      text-align: center; }
+    .feature .feature__col h2 {
+      margin: 20px 0 35px 0;
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 112.5%; }
+    .feature .feature__col p {
+      font-size: 93.75%;
+      color: #fff;
+      line-height: 120%;
+      text-align: justify; }
+
 /*# sourceMappingURL=style.css.map */
